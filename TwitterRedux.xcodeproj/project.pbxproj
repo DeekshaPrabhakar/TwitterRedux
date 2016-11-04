@@ -7,17 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB79C8DE1DCD39D200AD950D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB79C8DD1DCD39D200AD950D /* MenuViewController.swift */; };
+		CB79C8E01DCD39DE00AD950D /* HamburgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB79C8DF1DCD39DE00AD950D /* HamburgerViewController.swift */; };
+		CB79C8E21DCD3A0900AD950D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB79C8E11DCD3A0900AD950D /* ProfileViewController.swift */; };
+		CB79C8E41DCD3A2000AD950D /* HomeTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB79C8E31DCD3A2000AD950D /* HomeTimelineViewController.swift */; };
+		CB79C8E61DCD3A2F00AD950D /* MentionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB79C8E51DCD3A2F00AD950D /* MentionsViewController.swift */; };
+		CB79C8E91DCD3CA400AD950D /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB79C8E81DCD3CA400AD950D /* MenuCell.swift */; };
 		CBEBE37C1DC923CB0002CA54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEBE37B1DC923CB0002CA54 /* AppDelegate.swift */; };
-		CBEBE37E1DC923CB0002CA54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEBE37D1DC923CB0002CA54 /* ViewController.swift */; };
 		CBEBE3811DC923CB0002CA54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEBE37F1DC923CB0002CA54 /* Main.storyboard */; };
 		CBEBE3831DC923CC0002CA54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBEBE3821DC923CC0002CA54 /* Assets.xcassets */; };
 		CBEBE3861DC923CC0002CA54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEBE3841DC923CC0002CA54 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB79C8DD1DCD39D200AD950D /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		CB79C8DF1DCD39DE00AD950D /* HamburgerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerViewController.swift; sourceTree = "<group>"; };
+		CB79C8E11DCD3A0900AD950D /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CB79C8E31DCD3A2000AD950D /* HomeTimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTimelineViewController.swift; sourceTree = "<group>"; };
+		CB79C8E51DCD3A2F00AD950D /* MentionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MentionsViewController.swift; sourceTree = "<group>"; };
+		CB79C8E81DCD3CA400AD950D /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		CBEBE3781DC923CB0002CA54 /* TwitterRedux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterRedux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBEBE37B1DC923CB0002CA54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CBEBE37D1DC923CB0002CA54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CBEBE3801DC923CB0002CA54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBEBE3821DC923CC0002CA54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBEBE3851DC923CC0002CA54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +45,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB79C8DC1DCD39AE00AD950D /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB79C8DD1DCD39D200AD950D /* MenuViewController.swift */,
+				CB79C8DF1DCD39DE00AD950D /* HamburgerViewController.swift */,
+				CB79C8E11DCD3A0900AD950D /* ProfileViewController.swift */,
+				CB79C8E31DCD3A2000AD950D /* HomeTimelineViewController.swift */,
+				CB79C8E51DCD3A2F00AD950D /* MentionsViewController.swift */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		CB79C8E71DCD3C7400AD950D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB79C8E81DCD3CA400AD950D /* MenuCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		CBEBE36F1DC923CB0002CA54 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +84,9 @@
 		CBEBE37A1DC923CB0002CA54 /* TwitterRedux */ = {
 			isa = PBXGroup;
 			children = (
+				CB79C8E71DCD3C7400AD950D /* Views */,
+				CB79C8DC1DCD39AE00AD950D /* View Controller */,
 				CBEBE37B1DC923CB0002CA54 /* AppDelegate.swift */,
-				CBEBE37D1DC923CB0002CA54 /* ViewController.swift */,
 				CBEBE37F1DC923CB0002CA54 /* Main.storyboard */,
 				CBEBE3821DC923CC0002CA54 /* Assets.xcassets */,
 				CBEBE3841DC923CC0002CA54 /* LaunchScreen.storyboard */,
@@ -136,7 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBEBE37E1DC923CB0002CA54 /* ViewController.swift in Sources */,
+				CB79C8E01DCD39DE00AD950D /* HamburgerViewController.swift in Sources */,
+				CB79C8E21DCD3A0900AD950D /* ProfileViewController.swift in Sources */,
+				CB79C8DE1DCD39D200AD950D /* MenuViewController.swift in Sources */,
+				CB79C8E41DCD3A2000AD950D /* HomeTimelineViewController.swift in Sources */,
+				CB79C8E61DCD3A2F00AD950D /* MentionsViewController.swift in Sources */,
+				CB79C8E91DCD3CA400AD950D /* MenuCell.swift in Sources */,
 				CBEBE37C1DC923CB0002CA54 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +333,7 @@
 				CBEBE38C1DC923CC0002CA54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
